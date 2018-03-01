@@ -18,6 +18,7 @@ public class Aplicacao {
 	private static void mostrarInfoData(Data data) {
 		System.out.println("Dia da Semana: " + data.diaDaSemana());
 		System.out.println("Dias no Mês: " + data.diasNoMes());
+		System.out.println("Data por extenso: " + data.porExtenso() );
 		if (data.eAnoBisexto()) {
 			System.out.println("É Ano bisexto");
 		} else {
