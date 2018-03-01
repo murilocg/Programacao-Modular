@@ -1,2 +1,3 @@
 1 - C
 2 - C
+5 - O programador não possui o controle de quando o destrutor será executado, assim a resolução de pendências apenas no método finalize pode causar os seguintes problemas: a resolução de pendências não poderá ser executada por demanda; demora para resolução de pendências, consumindo desnecessáriamente os recursos da máquina.  
