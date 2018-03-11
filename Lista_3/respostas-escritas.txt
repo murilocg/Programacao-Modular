@@ -1,0 +1,9 @@
+1 - A barreira do encapsulamento é quebrada pois uma classe que herda de outra pode alterar
+o comportamento, consequentemente alterando o estado.
+O aumento do acoplamento dá-se à dependência do funcionamento interno da classe em relação a classe extendida.
+
+4 - Como o Funcionario só pode ser uma pessoa fisica este deve extender a Classe PessoaFisica , assim estará limitado
+a ser sempre uma pessoa fisica.
+Porém esta mesma abordagem não será usada com o Cliente. Como o cliente pode ser tanto pessoa fisica quanto juridica
+a herança não será aplicavel, pois se o cliente herda pessoaFisica ele não pode ser pessoaJuridica e vice versa. Tanto quanto
+o cliente também não poderá herdar Pessoa porque ele não seria nem do tipo pessoaFisica nem pessoaJuridica.
